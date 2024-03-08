@@ -1,0 +1,88 @@
+/* Homepage.module.css */
+.heroSection {
+    position: relative;
+    height: 500px; /* Adjust as needed */
+  }
+  
+  .heroImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .bottomNav {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .bottomNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .bottomNav ul li {
+    margin: 0 10px;
+  }
+  
+  .bottomNav ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .bottomNav ul li a:hover {
+    color: #ff8400;
+  }
+  .bottomNav:after {
+    content: ''; /* Add content */
+    display: block; /* Display as block */
+    position: absolute; /* Position absolutely */
+    bottom: -1px; /* Place it just below the navigation bar */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Make it full width */
+    height: 2px; /* Set the height of the line */
+    background-color: #ff8400; /* Set the color of the line */
+  }
+.sectionsContainer {
+    margin-top: 60px; /* Adjust as needed to provide space below the bottom nav bar */
+  }
+  
+  
+  .sectionsContainer section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Add a border between sections */
+  }
+.sectionsContainer {
+    margin-top: 100px; /* Adjust as needed to provide space below the bottom nav bar */
+  }
+  
+  .sectionsContainer section {
+    padding: 30px;
+    border-bottom: 1px solid #ccc; /* Add a border between sections */
+  }
+  
+  .blackBackground {
+    background-color: #3C4142;
+    color: #fff;
+    height: 100vh;
+  }
+
+  .blackBackground h2{
+    color: #ff8400;
+  }
+
+  .content_left{
+    display: flex;
+    margin: 50px;
+    padding: 50px;
+    color: red;
+  }
+  .details{
+    display: flex;
+  }
+
+  
