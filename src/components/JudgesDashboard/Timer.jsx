@@ -70,6 +70,7 @@ const Timer = () => {
               position: "relative",
               display: "flex",
               justifyContent: "center",
+              color:"white"
             }}
           >
             <div>
