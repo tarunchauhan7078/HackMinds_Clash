@@ -7,6 +7,7 @@ import UserProfile from './components/UserProfile/UserProfile.jsx';
 import JudgesDashboard from './components/JudgesDashboard/JudgesDashboard.js';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Register from './components/Registration/Register.jsx';
+import Login from './components/Login/Login.js'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage/>}/>
           <Route path="/register" element={<Register/>}/>
-          {/* <Route path="/login" element={<Log/>}/> */}
+          <Route path="/login" element={<Login/>}/> 
           <Route path="/userdashboard" element={<UserDashboard/>}/>
           <Route path="/panelistdashboard" element={<PanelistDashboard/>}/>
           <Route path="/userprofile" element={<UserProfile/>}/>

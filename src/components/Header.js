@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'; // Add faTimes for the close icon
 import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -35,7 +36,7 @@ const Header = () => {
             <a href="#" onClick={scrollToTop}>Home</a>
           </div>
           <div className={styles.loginRegister}>
-            <a href="#">Login/Register</a>
+            <Link to='/login'>Login/Register</Link>
           </div>
         </div>
       </nav>
