@@ -11,7 +11,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './Style.css';
+import './Register.css';
 // import { CreateContext } from "../../App";
 import { useContext } from "react";
 
