@@ -226,12 +226,12 @@ function UserDashboard() {
             onChange={handleChange}
           >
             <option selected>Select Domain</option>
-            <option value="1">IoT</option>
-            <option value="2">Machine Learning</option>
-            <option value="3">Big Data</option>
-            <option value="4">CyberSecurity</option>
-            <option value="5">Data Science</option>
-            <option value="6">Artificial Intelligence</option>
+            <option value="IoT">IoT</option>
+            <option value="Machine Learning">Machine Learning</option>
+            <option value="Big Data">Big Data</option>
+            <option value="CyberSecurity">CyberSecurity</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Artificial Intelligence">Artificial Intelligence</option>
           </select>
           {validationErrors.selectedDomain && (
             <div className="invalid-feedback">
