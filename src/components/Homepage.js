@@ -11,7 +11,7 @@ import styles from "./Homepage.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PanelistsCarousel from "./PanelistsCarousel";
 import Footer from "./Footer";
-import imgp from "../judgingCrit.png"
+import imgp from "../judgingCrit.png";
 
 const cards = [
   { img: imgp, name: "Panelist 1" },
@@ -117,17 +117,14 @@ const Homepage = () => {
                 event designed to bring together creative minds and innovative
                 thinkers from across the globe. This year, our focus is on
                 pushing the boundaries of technology and addressing real-world
-                challenges through innovative solutions. Join us on [Date] at
-                [Location] for an exciting two-day event filled with coding,
-                collaboration, and creativity. Throughout the hackathon,
-                participants will have the opportunity to attend workshops, hear
-                from industry experts, and work on projects that tackle pressing
-                issues in various domains. Whether you're a seasoned developer
-                or just starting out, there's something for everyone at
-                Hackathon 2024. Don't miss this chance to network with
-                like-minded individuals, gain valuable skills, and make a
-                positive impact through technology. Register now and be part of
-                the future of innovation!
+                challenges through innovative solutions. Join us on 22 March 2024, for
+                an exciting two-day event filled with coding, collaboration, and
+                creativity. Throughout the hackathon, participants will have the
+                opportunity to attend workshops, hear from industry experts, and
+                work on projects that tackle pressing issues in various domains.
+                Whether you're a seasoned developer or just starting out,
+                there's something for everyone at Hackathon 2024. Register now
+                and be part of the future of innovation!
               </p>
             </div>
             <div
@@ -253,11 +250,9 @@ const Homepage = () => {
                 ></span>
               </h2>
               <p style={{ textAlign: "justify", padding: "50px" }}>
-                Hackathon 2024 will take place on [Date] from [Start Time] to
-                [End Time].
+                Hackathon 2024 will take place on 22 March 2024.
                 <br />
-                The event will span [Number of Days] days and will be held at
-                [Location].
+                The event will span 2 days.
                 <br />
                 Participants are encouraged to arrive on time for registration
                 and the opening ceremony.
